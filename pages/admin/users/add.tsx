@@ -1,13 +1,12 @@
 import { useRouter } from 'next/router'
-import Layout from '../components/Layout'
+import Layout from '../../../components/Layout'
 
-const index = () => {
+const add = () => {
   return (
-    <Layout>index
+    <Layout>add
         <h1>GeeksforGeeks</h1>
-
     </Layout>
   )
 }
 
-export default index
+export default add
